@@ -5,8 +5,8 @@ float calcMedia(float n1, float n2, float n3){ //Receita para o cálculo das mé
     return (n1+n2+n3)/3;
     }
 int main(){
-    string nomes[5]; //Mantendo os dados de 5 pessoas.
-    float notas1[5], notas2[5], notas3[5], medias[5]; //Mantendo notas de 5 pessoas.
+    string nomes[5]; //Armazenando os dados de 5 pessoas.
+    float notas1[5], notas2[5], notas3[5], medias[5]; //Armazendo as 3 notas de 5 pessoas.
 
     for(int i=0; i<5; i++){//Calculando a média dos 5 alunos.
         cout << "Nome do aluno " << i+1 << ": ";
